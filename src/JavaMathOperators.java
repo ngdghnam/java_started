@@ -76,11 +76,43 @@ class ToanTuLogic{
     }
 }
 
+class ToanTuGan {
+    public static void MathGan() {
+        int a = 10, b = 5;
+        int c;
+        c = a + b;
+        System.out.println("Ket qua phep (=): " + c);
+        a = 10; a += b;
+        System.out.println("Ket qua phep (+=): " + a);
+        a = 10; a -= b;
+        System.out.println("Ket qua phep (-=): " + a);
+        a = 10; a *= b;
+        System.out.println("Ket qua phep (*=): " + a);
+        a = 10; a /= b;
+        System.out.println("Ket qua phep (/=): " + a);
+        a = 10; a %= b;
+        System.out.println("Ket qua phep (%=): " + a);
+        a = 10; a <<= 2;
+        System.out.println("Ket qua phep (<<=): " + a);
+        a = 10; a >>= 2;
+        System.out.println("Ket qua phep (>>=): " + a);
+        a = 10; a >>>= 2;
+        System.out.println("Ket qua phep (>>>=): " + a);
+        a = 10; a &= b;
+        System.out.println("Ket qua phep (&=): " + a);
+        a = 10; a ^= b;
+        System.out.println("Ket qua phep (^=): " + a);
+        a = 10; a |= b;
+        System.out.println("Ket qua phep (|=): " + a);
+    }
+}
+
 public class JavaMathOperators {
     public static void main(String[] args) {
         // ToanTuQuanHe.MathQuanHe();
         // ToanTuSoHoc.MathSoHoc();
-        ToanTuBitWise.MathBitwise();
-        ToanTuLogic.MathLogic();
+        //ToanTuBitWise.MathBitwise();
+        //ToanTuLogic.MathLogic();
+        //ToanTuGan.MathGan();
     }
 }
