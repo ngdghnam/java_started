@@ -63,6 +63,7 @@ public class JavaInputOutput {
     }
 
     public static void main(String[] args) throws IOException {
+        // Sử dụng BufferedReader phải throw exception  
         UsingBufferedReader();
         UsingScanner();
         UsingConsole();
